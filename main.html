@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-family: 'Barlow', sans-serif;
+         font-family: 'Roboto', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- else -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="mx-auto py-8 z-30">
+      <nav class="mx-auto max-w-6xl flex justify-end z-30">
+        <div class="flex max-w-2xl w-full items-center justify-end gap-6 z-30">
+          <ul class="flex items-center gap-6 z-30">
+            <li>
+              <a
+                href="#"
+                class="group relative z-30 inline-block text-white hover:text-white/80 text-lg font-normal leading-[167%] font-['Barlow', sans-serif]"
+                >Home
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#FF4D01] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="group relative z-30 inline-block text-white hover:text-white/80 text-lg font-normal leading-[167%] font-['Barlow', sans-serif]"
+                >About
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#FF4D01] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="group relative z-30 inline-block text-white hover:text-white/80 text-lg font-normal leading-[167%] font-['Barlow', sans-serif]"
+                >Blog
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#FF4D01] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="group relative z-30 inline-block text-white hover:text-white/80 text-lg font-normal leading-[167%] font-['Barlow', sans-serif]"
+                >Pages
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#FF4D01] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="group relative z-30 inline-block text-white hover:text-white/80 text-lg font-normal leading-[167%] font-['Barlow', sans-serif]"
+                >Contact
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#FF4D01] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </a>
+            </li>
+          </ul>
+          <span
+            class="group relative z-30 inline-block text-white hover:text-white/80 m-0 hover:cursor-pointer text-lg font-normal leading-[167%] font-['Barlow', sans-serif]"
+            >Cart(0)</span
+          >
+          <button
+            class="bg-[#FF4D01] text-white px-[24px] py-4 font-['Barlow', sans-serif] text-base leading-[113%] transition-all duration-300 hover:bg-[#FF4D01]/50 hover:transition-all hover:duration-300 hover:cursor-pointer z-30"
+          >
+            Get a quote
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section
+      class="absolute top-0 left-0 bg-[url(/img/worker.png)] w-full h-[955px] bg-cover bg-center"
+    >
+      <div
+        class="bg-[#343434]/60 absolute top-0 left-0 w-full h-[955px] z-10"
+      ></div>
+      <div
+        class="relative max-w-6xl mx-auto flex flex-col items-center justify-center h-full z-20"
+      >
+        <h1
+          class="text-white text-7xl font-['Barlow', sans-serif] max-w-2xl text-center z-20 leading-[117%]"
+        >
+          We provide effective contracting services
+        </h1>
+        <p
+          class="text-white text-lg text-center z-20 font-['Barlow', sans-serif] max-w-2xl mt-5 leading-[163%]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
+          varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor
+          porttitor quis quisque erat.
+        </p>
+        <div class="flex gap-10">
+          <button
+            class="group relative overflow-hidden border-2 border-[#FF4D01] bg-[#FF4D01] text-white px-12 py-7 font-['Barlow', sans-serif] text-base leading-[113%] transition-all duration-300 hover:bg-[#FF4D01]/0 hover:transition-all hover:duration-300 hover:cursor-pointer mt-8 z-20"
+          >
+            <span class="relative z-10">Get a quote</span>
+            <span
+              class="absolute inset-0 bg-white/0 origin-bottom scale-y-0 group-hover:scale-y-100 transition-transform duration-200 ease-out"
+            ></span>
+          </button>
+
+          <button
+            class="group relative overflow-hidden border-2 border-white text-white px-11 py-6 font-['Barlow', sans-serif] text-base leading-[113%] transition-all duration-300 hover:text-black hover:transition-all hover:duration-300 hover:cursor-pointer mt-8 z-20"
+          >
+            <span class="relative z-10">Our services</span>
+            <span
+              class="absolute inset-0 bg-white origin-bottom scale-y-0 group-hover:scale-y-100 transition-transform duration-200 ease-out"
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="relative mt-[955px] py-8 z-40 font-['Barlow', sans-serif]">
+      <div class="max-w-6xl mx-auto flex space-x-[4rem]">
+        <img src="img/Frame.png" />
+        <div class="flex flex-col mt-20">
+          <h4
+            class="text-[#FF4D01] leading-[110%] text-xl font-normal tracking-wider uppercase font-['Barlow', sans-serif]"
+          >
+            /About Us
+          </h4>
+          <h1 class="text-6xl leading-[112%] text-[#191919] my-5">
+            A team of reliable and experienced contractors
+          </h1>
+          <p
+            class="text-lg leading-[167%] text-gray-500 font-['Barlow', sans-serif]"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique
+            imperdiet nisi metus, viverra nulla aliquet dui porta porttitor
+            neque lectus diam justo lobortis purus in elit, elementum dignissim
+            nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas
+            morbi suspendisse eleifend.
+          </p>
+          <div class="flex items-center gap-20 mt-14">
+            <div class="">
+              <span class="flex items-center"
+                ><h3
+                  class="text-[#FF4D01] text-7xl leading-[117%] font-['Barlow', sans-serif]"
+                >
+                  +
+                </h3>
+                <h3
+                  class="text-[#191919] text-7xl leading-[117%] font-['Barlow', sans-serif]"
+                >
+                  350
+                </h3></span
+              >
+              <p
+                class="text-center text-lg leading-[111%] font-['Barlow', sans-serif] text-[#989899]"
+              >
+                Executed Projects
+              </p>
+            </div>
+            <div class="">
+              <span class="flex items-center"
+                ><h3 class="text-[#191919] text-7xl leading-[117%]">12</h3>
+                <h3 class="text-[#FF4D01] text-7xl leading-[117%]">Y</h3></span
+              >
+              <p class="text-lg leading-[111%] text-center text-[#989899]">
+                Experience
+              </p>
+            </div>
+            <div class="">
+              <span class="flex items-center"
+                ><h3
+                  class="text-[#FF4D01] text-7xl leading-[117%] font-['Barlow', sans-serif]"
+                >
+                  +
+                </h3>
+                <h3
+                  class="text-[#191919] text-7xl leading-[117%] font-['Barlow', sans-serif]"
+                >
+                  400
+                </h3></span
+              >
+              <p
+                class="text-center text-lg leading-[111%] font-['Barlow', sans-serif] text-[#989899]"
+              >
+                Satisfied Clients
+              </p>
+            </div>
+          </div>
+          <button
+            class="group relative overflow-hidden border-2 border-[#191919] text-[#191919] text-lg py-4 font-['Barlow', sans-serif] leading-[113%] transition-all duration-300 hover:text-white hover:transition-all hover:duration-300 hover:cursor-pointer mt-8 z-20 max-w-[40%]"
+          >
+            <span class="relative z-10">Our services</span>
+            <span
+              class="absolute inset-0 bg-[#191919] origin-center scale-y-0 group-hover:scale-y-100 transition-transform duration-200 ease-out"
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex items-center mb-16">
+          <div class="w-[35%] ">
+            <h4 class="uppercase text-[#FF4D01] font-['Barlow', sans-serif]">
+              /Our services
+            </h4>
+            <h1 class="text-5xl leading-[114%] textr-[#191919]">A comprehensive set of services</h1>
+          </div>
+          <div class="flex items-center justify-end gap-5  w-[65%]">
+            <button
+            class="group relative overflow-hidden border-2 bg-[#FF4D01] border-[#FF4D01] text-white px-11 py-6   leading-[113%] transition-all duration-300 hover:text-black hover:transition-all hover:duration-300 hover:cursor-pointer  z-20"
+          >
+            <span class="relative z-10">Get a quote</span>
+            <span
+              class="absolute inset-0 bg-white origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-200 ease-out"
+            ></span>
+          </button>
+            <button
+            class="group relative overflow-hidden border-2 border-[#191919] text-[#191919]  px-11 py-6  leading-[113%] transition-all duration-300 hover:text-white hover:transition-all hover:duration-300 hover:cursor-pointer  z-20 max-w-[40%]"
+          >
+            <span class="relative z-10">Browse services</span>
+            <span
+              class="absolute inset-0 bg-[#191919] origin-center scale-y-0 group-hover:scale-y-100 transition-transform duration-200 ease-out"
+            ></span>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-x-7 gap-y-20">
+          <div class="max-w-[364px] flex flex-col gap-4">
+            <img class="w-16 h-16" src="img/IMAGE.png" alt="">
+            <h2 class="text-3xl leading-[141%] text-[#191919]">Project Planning</h2>
+            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.</p>
+            <div class="flex gap-5 items-center">
+              <div class="w-8 h-8 bg-[#191919]"></div>
+              <p class="group relative text-lg text-[#191919] leading-[111%]  duration-300 cursor-pointer">Learn more
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#191919] origin-center scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </p>
+            </div>
+          </div>
+          <div class="max-w-[364px] flex flex-col gap-4">
+            <img class="w-16 h-16" src="img/IMAGE-1.png" alt="">
+            <h2 class="text-3xl leading-[141%] text-[#191919]">Project Management</h2>
+            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.</p>
+            <div class="flex gap-5 items-center">
+              <div class="w-8 h-8 bg-[#191919]"></div>
+              <p class="group relative text-lg text-[#191919] leading-[111%]  duration-300 cursor-pointer">Learn more
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#191919] origin-center scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </p>
+
+            </div>
+          </div>
+          <div class="max-w-[364px] flex flex-col gap-4">
+            <img class="w-16 h-16" src="img/IMAGE-2.png" alt="">
+            <h2 class="text-3xl leading-[141%] text-[#191919]">General Contracting</h2>
+            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.</p>
+            <div class="flex gap-5 items-center">
+              <div class="w-8 h-8 bg-[#191919]"></div>
+              <p class="group relative text-lg text-[#191919] leading-[111%]  duration-300 cursor-pointer">Learn more
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#191919] origin-center scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </p>
+
+            </div>
+          </div>
+          <div class="max-w-[364px] flex flex-col gap-4">
+            <img class="w-16 h-16" src="img/IMAGE-3.png" alt="">
+            <h2 class="text-3xl leading-[141%] text-[#191919]">Interior Design</h2>
+            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.</p>
+            <div class="flex gap-5 items-center">
+              <div class="w-8 h-8 bg-[#191919]"></div>
+              <p class="group relative text-lg text-[#191919] leading-[111%]  duration-300 cursor-pointer">Learn more
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#191919] origin-center scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </p>
+
+            </div>
+          </div>
+          <div class="max-w-[364px] flex flex-col gap-4">
+            <img class="w-16 h-16" src="img/IMAGE-4.png" alt="">
+            <h2 class="text-3xl leading-[141%] text-[#191919]">Exterior Design</h2>
+            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.</p>
+            <div class="flex gap-5 items-center">
+              <div class="w-8 h-8 bg-[#191919]"></div>
+              <p class="group relative text-lg text-[#191919] leading-[111%]  duration-300 cursor-pointer">Learn more
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#191919] origin-center scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </p>
+
+            </div>
+          </div>
+          <div class="max-w-[364px] flex flex-col gap-4">
+            <img class="w-16 h-16" src="img/IMAGE-5.png" alt="">
+            <h2 class="text-3xl leading-[141%] text-[#191919]">Space Planning</h2>
+            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.</p>
+            <div class="flex gap-5 items-center">
+              <div class="w-8 h-8 bg-[#191919]"></div>
+              <p class="group relative text-lg text-[#191919] leading-[111%]  duration-300 cursor-pointer">Learn more
+                <span
+                  class="pointer-events-none absolute -bottom-0.5 left-0 h-[2px] w-full bg-[#191919] origin-center scale-x-0 transition-transform duration-300 group-hover:scale-x-100 z-30"
+                ></span>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
