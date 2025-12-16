@@ -12,11 +12,15 @@
       rel="stylesheet"
     />
     <!-- else -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <header class="mx-auto py-8 z-30">
       <nav class="mx-auto max-w-6xl flex justify-end z-30">
         <div class="flex max-w-2xl w-full items-center justify-end gap-6 z-30">
@@ -399,58 +403,219 @@
       </div>
     </section>
     <section class="">
-      <div class="bg-[url('./img/piramida.svg')] bg-center bg-no-repeat pt-[27.5rem]"></div>
+      <div
+        class="bg-[url('./img/piramida.svg')] bg-center bg-no-repeat pt-[27.5rem]"
+      ></div>
       <div class="max-w-6xl mx-auto flex flex-col mt-[-9rem]">
         <div class="flex justify-center gap-[62px] py-10">
-          <img class="" src="img/why1.png">
+          <img class="" src="img/why1.png" />
           <div class="flex flex-col gap-3 mt-20">
-            <h4 class="uppercase text-[#FF4D01] font-['Barlow', sans-serif]">/Why Choose Us</h4>
-            <h1 class="text-6xl leading-[115%] text-[#191919]">An exceptional quality that can't be beaten</h1>
-            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique rutrum leo quam consectetur urna egestas tincidunt facilisi neque elementum quis lorem posuere dignissim scelerisque aliquam.</p>
+            <h4 class="uppercase text-[#FF4D01] font-['Barlow', sans-serif]">
+              /Why Choose Us
+            </h4>
+            <h1 class="text-6xl leading-[115%] text-[#191919]">
+              An exceptional quality that can't be beaten
+            </h1>
+            <p class="text-lg text-[#605e5d] leading-[167%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique
+              rutrum leo quam consectetur urna egestas tincidunt facilisi neque
+              elementum quis lorem posuere dignissim scelerisque aliquam.
+            </p>
             <div class="flex justify-start gap-2 items-center">
-              <img src="img/Group.svg" alt="">
-              <h4 class=" flex items-center  text-lg text-[#191919] leading-[111%]"  >Over 15 years of experience</h4>
+              <img src="img/Group.svg" alt="" />
+              <h4
+                class="flex items-center text-lg text-[#191919] leading-[111%]"
+              >
+                Over 15 years of experience
+              </h4>
             </div>
             <div class="flex justify-start gap-2 items-center">
-              <img src="img/Group.svg" alt="">
-              <h4 class=" flex items-center  text-lg text-[#191919] leading-[111%]"  >200+ successfully executed projects</h4>
+              <img src="img/Group.svg" alt="" />
+              <h4
+                class="flex items-center text-lg text-[#191919] leading-[111%]"
+              >
+                200+ successfully executed projects
+              </h4>
             </div>
             <div class="flex justify-start gap-2 items-center">
-              <img src="img/Group.svg" alt="">
-              <h4 class=" flex items-center  text-lg text-[#191919] leading-[111%]"  >Over 15 years of experience</h4>
+              <img src="img/Group.svg" alt="" />
+              <h4
+                class="flex items-center text-lg text-[#191919] leading-[111%]"
+              >
+                Over 15 years of experience
+              </h4>
             </div>
           </div>
         </div>
         <div class="flex justify-center gap-14 py-10">
           <div class="flex flex-col gap-3 mt-14 max-w-[50%]">
-            <h1 class="text-6xl leading-[115%] text-[#191919]">We help you build on your past and prepare for the future</h1>
-            <p class="text-lg text-[#605e5d] leading-[167%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique rutrum leo quam consectetur urna egestas tincidunt facilisi neque elementum quis lorem posuere dignissim scelerisque aliquam.</p>
-           <div class="flex gap-10">
-            <div class="flex flex-col ">
-             <div class="flex gap-2 items-center justify-center">
-              <h1 class="text-[#FF4D01] text-[3.4rem] leading-[115%] ">+</h1>
-              <h1 class="text-[#191919] text-[3.4rem] leading-[115%]">350</h1>
-             </div>
-              <p class="text-lg text-[#989899] leading-[111%] col-span-2">Successful Projects</p>
-             </div>
-             <div class="flex flex-col ">
-              <div class="flex gap-2 items-center justify-center flex-row-reverse">
-               <h1 class="text-[#FF4D01] text-[3.4rem] leading-[115%]">%</h1>
-               <h1 class="text-[#191919] text-[3.4rem] leading-[115%]">100</h1>
+            <h1 class="text-6xl leading-[115%] text-[#191919]">
+              We help you build on your past and prepare for the future
+            </h1>
+            <p class="text-lg text-[#605e5d] leading-[167%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique
+              rutrum leo quam consectetur urna egestas tincidunt facilisi neque
+              elementum quis lorem posuere dignissim scelerisque aliquam.
+            </p>
+            <div class="flex gap-10">
+              <div class="flex flex-col">
+                <div class="flex gap-2 items-center justify-center">
+                  <h1 class="text-[#FF4D01] text-[3.4rem] leading-[115%]">+</h1>
+                  <h1 class="text-[#191919] text-[3.4rem] leading-[115%]">
+                    350
+                  </h1>
+                </div>
+                <p class="text-lg text-[#989899] leading-[111%] col-span-2">
+                  Successful Projects
+                </p>
               </div>
-               <p class="text-lg text-[#989899] leading-[111%] col-span-2">Client Satisfaction</p>
+              <div class="flex flex-col">
+                <div
+                  class="flex gap-2 items-center justify-center flex-row-reverse"
+                >
+                  <h1 class="text-[#FF4D01] text-[3.4rem] leading-[115%]">%</h1>
+                  <h1 class="text-[#191919] text-[3.4rem] leading-[115%]">
+                    100
+                  </h1>
+                </div>
+                <p class="text-lg text-[#989899] leading-[111%] col-span-2">
+                  Client Satisfaction
+                </p>
               </div>
-           </div>
+            </div>
           </div>
           <div class="relative">
-            <img class="relative" src="img/why2.png">
-            <div class="absolute w-[284px] h-[284px] border border-[3px] border-solid border-[#FF4D01] -bottom-8 -right-8 "></div>
+            <img class="relative" src="img/why2.png" />
+            <div
+              class="absolute w-[284px] h-[284px] border border-[3px] border-solid border-[#FF4D01] -bottom-8 -right-8"
+            ></div>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto overflow-visible">
+        <h1 class="uppercase text-[#FF4D01] font-['Barlow', sans-serif]">
+          /Past Projects
+        </h1>
+        <div class="flex items-center justify-between">
+          <h1 class="text-[54px] leading-[115%] text-[#191919] w-[602px]">
+            Our project results speak for themselves
+          </h1>
+          <div class="flex gap-x-7 justify-center items-center">
+            <button
+              class="group relative overflow-hidden border-2 bg-[#FF4D01] border-[#FF4D01] text-white px-11 py-6 leading-[113%] transition-all duration-300 hover:text-black hover:transition-all hover:duration-300 hover:cursor-pointer z-20"
+            >
+              <span class="relative z-10">Get a quote</span>
+              <span
+                class="absolute inset-0 bg-white origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-200 ease-out"
+              ></span>
+            </button>
+            <button
+              class="group relative overflow-hidden border-2 border-[#191919] text-[#191919] px-11 py-6 leading-[113%] transition-all duration-300 hover:text-white hover:transition-all hover:duration-300 hover:cursor-pointer z-20"
+            >
+              <span class="relative z-10">Browse services</span>
+              <span
+                class="absolute inset-0 bg-[#191919] origin-center scale-y-0 group-hover:scale-y-100 transition-transform duration-200 ease-out"
+              ></span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper overflow-visible py-14">
+          <div class="swiper-wrapper flex">
+            <div class="swiper-slide w-[545px] h-[611px] bg-[url(./img/project-1.png)]">
+              <div class="bg-black/10 w-[545px] h-[611px] flex items-end py-10">
+                <div class=" flex flex-col w-[485px] mx-auto gap-5 ">
+                  <p class="text-[34px] leading-[141%] text-[#fff]">Building construction in Los Angeles, CA</p>
+                  <p class="text-base leading-[167%] text-[#eaeaeb] mb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.</p>
+                  <span class="w-full border border-1 border-solid border-[#989899] mb-[10px]"></span>
+                  <div class="flex items-center gap-5">
+                    <img src="/img/project-icon.svg" alt="">
+                    <h3 class="text-lg leading-[111%] text-[#eaeaeb]">Construction</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-[545px] h-[611px] bg-[url(./img/project-2.png)]">
+              <div class="bg-black/10 w-[545px] h-[611px] flex items-end py-10">
+                <div class=" flex flex-col w-[485px] mx-auto gap-5 ">
+                  <p class="text-[34px] leading-[141%] text-[#fff]">Kitchen remodeling in Hollywood Hills, CA</p>
+                  <p class="text-base leading-[167%] text-[#eaeaeb] mb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.</p>
+                  <span class="w-full border border-1 border-solid border-[#989899] mb-[10px]"></span>
+                  <div class="flex items-center gap-5">
+                    <img src="/img/project-icon.svg" alt="">
+                    <h3 class="text-lg leading-[111%] text-[#eaeaeb]">Remodeling</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-[545px] h-[611px] bg-[url(./img/project-3.png)]">
+              <div class="bg-black/10 w-[545px] h-[611px] flex items-end py-10">
+                <div class=" flex flex-col w-[485px] mx-auto gap-5 ">
+                  <p class="text-[34px] leading-[141%] text-[#fff]">Office remodeling in Hollywood Hills, CA</p>
+                  <p class="text-base leading-[167%] text-[#eaeaeb] mb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.</p>
+                  <span class="w-full border border-1 border-solid border-[#989899] mb-[10px]"></span>
+                  <div class="flex items-center gap-5">
+                    <img src="/img/project-icon.svg" alt="">
+                    <h3 class="text-lg leading-[111%] text-[#eaeaeb]">Remodeling</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-[545px] h-[611px] bg-[url(./img/project-1.png)]">
+              <div class="bg-black/10 w-[545px] h-[611px] flex items-end py-10">
+                <div class=" flex flex-col w-[485px] mx-auto gap-5 ">
+                  <p class="text-[34px] leading-[141%] text-[#fff]">Building construction in Los Angeles, CA</p>
+                  <p class="text-base leading-[167%] text-[#eaeaeb] mb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.</p>
+                  <span class="w-full border border-1 border-solid border-[#989899] mb-[10px]"></span>
+                  <div class="flex items-center gap-5">
+                    <img src="/img/project-icon.svg" alt="">
+                    <h3 class="text-lg leading-[111%] text-[#eaeaeb]">Construction</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-[545px] h-[611px] bg-[url(./img/project-2.png)]">
+              <div class="bg-black/10 w-[545px] h-[611px] flex items-end py-10">
+                <div class=" flex flex-col w-[485px] mx-auto gap-5 ">
+                  <p class="text-[34px] leading-[141%] text-[#fff]">Kitchen remodeling in Hollywood Hills, CA</p>
+                  <p class="text-base leading-[167%] text-[#eaeaeb] mb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.</p>
+                  <span class="w-full border border-1 border-solid border-[#989899] mb-[10px]"></span>
+                  <div class="flex items-center gap-5">
+                    <img src="/img/project-icon.svg" alt="">
+                    <h3 class="text-lg leading-[111%] text-[#eaeaeb]">Remodeling</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-[545px] h-[611px] bg-[url(./img/project-3.png)]">
+              <div class="bg-black/10 w-[545px] h-[611px] flex items-end py-10">
+                <div class=" flex flex-col w-[485px] mx-auto gap-5 ">
+                  <p class="text-[34px] leading-[141%] text-[#fff]">Office remodeling in Hollywood Hills, CA</p>
+                  <p class="text-base leading-[167%] text-[#eaeaeb] mb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.</p>
+                  <span class="w-full border border-1 border-solid border-[#989899] mb-[10px]"></span>
+                  <div class="flex items-center gap-5">
+                    <img src="/img/project-icon.svg" alt="">
+                    <h3 class="text-lg leading-[111%] text-[#eaeaeb]">Remodeling</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="flex justify-center gap-5 items-center py-10">
+            <div class="button-prev w-16 h-16 border border-[#191919] border-2 flex items-center justify-center rotate-180"><svg width="31" height="15" viewBox="0 0 31 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.7071 8.07088C31.0976 7.68035 31.0976 7.04719 30.7071 6.65666L24.3431 0.292702C23.9526 -0.0978226 23.3195 -0.0978226 22.9289 0.292702C22.5384 0.683226 22.5384 1.31639 22.9289 1.70692L28.5858 7.36377L22.9289 13.0206C22.5384 13.4111 22.5384 14.0443 22.9289 14.4348C23.3195 14.8254 23.9526 14.8254 24.3431 14.4348L30.7071 8.07088ZM0 7.36377L0 8.36377L30 8.36377V7.36377V6.36377L0 6.36377L0 7.36377Z" fill="black" />
+            </svg></div>
+            <div class="button-next w-16 h-16 bg-[#FF4D01] border border-[#FF4D01] border-2 flex items-center justify-center"><svg width="31" height="15" viewBox="0 0 31 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.7071 8.07088C31.0976 7.68035 31.0976 7.04719 30.7071 6.65666L24.3431 0.292702C23.9526 -0.0978226 23.3195 -0.0978226 22.9289 0.292702C22.5384 0.683226 22.5384 1.31639 22.9289 1.70692L28.5858 7.36377L22.9289 13.0206C22.5384 13.4111 22.5384 14.0443 22.9289 14.4348C23.3195 14.8254 23.9526 14.8254 24.3431 14.4348L30.7071 8.07088ZM0 7.36377L0 8.36377L30 8.36377V7.36377V6.36377L0 6.36377L0 7.36377Z" fill="black" />
+            </svg></div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
